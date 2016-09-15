@@ -1,0 +1,11 @@
+#  ALERT #
+dywee_alert_table:
+    path:     /admin/alert/table
+    defaults: { _controller: DyweeNotificationBundle:Alert:table }
+
+# NOTIFICATION #
+dywee_notification_view:
+    path:     /admin/notification/{id}/view
+    defaults: { _controller: DyweeNotificationBundle:Notification:view }
+    requirements:
+        id: \d*

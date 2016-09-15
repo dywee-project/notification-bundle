@@ -1,0 +1,24 @@
+{
+  "name": "dywee/notification-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony3 bundle for easy management of notification for Dywee Administration",
+  "keywords": ["notification, alerts"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Olivier Delbruyère",
+      "email": "olivier.delbruyere@hotmail.com",
+      "homepage": "http://dywee.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "dywee/core-bundle": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dywee\\NotificationBundle\\": ""
+    }
+  }
+}
