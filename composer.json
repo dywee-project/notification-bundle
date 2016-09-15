@@ -2,7 +2,7 @@
   "name": "dywee/notification-bundle",
   "type": "symfony-bundle",
   "description": "Symfony3 bundle for easy management of notification for Dywee Administration",
-  "keywords": ["notification, alerts"],
+  "keywords": ["notification", "alerts"],
   "license": "MIT",
   "authors": [
     {
